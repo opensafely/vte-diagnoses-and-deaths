@@ -1,3 +1,16 @@
 {
-  "files": {}
+  "files": {
+    "opensafely-venous-thromboembolic-disease.csv": {
+      "id": "opensafely/venous-thromboembolic-disease/2020-09-14",
+      "url": "https://codelists.opensafely.org/codelist/opensafely/venous-thromboembolic-disease/2020-09-14/",
+      "downloaded_at": "2023-07-17 10:56:13.450052Z",
+      "sha": "4ad6837024f72954807f996e1af75f700ed5dd38"
+    },
+    "opensafely-venous-thromboembolic-disease-hospital.csv": {
+      "id": "opensafely/venous-thromboembolic-disease-hospital/2020-10-01",
+      "url": "https://codelists.opensafely.org/codelist/opensafely/venous-thromboembolic-disease-hospital/2020-10-01/",
+      "downloaded_at": "2023-07-17 10:58:20.644975Z",
+      "sha": "5dd9d60df2ad93e622d76e0d7d90f71d14168af1"
+    }
+  }
 }
