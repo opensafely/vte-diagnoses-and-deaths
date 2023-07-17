@@ -31,6 +31,7 @@ dataset.date_of_last_vte = most_recent_vte.date
 dataset.code_of_last_vte = most_recent_vte.ctv3_code
 dataset.age_at_last_vte = patients.age_on(most_recent_vte.date)
 
-# dataset.has_died = ons_deaths.exists_for_patient()
-# dataset.date_of_death = ons_deaths.date
-# dataset.age_at_death = patients.age_on(ons_deaths.date)
+dataset.has_died = ons_deaths.exists_for_patient()
+most_recent_death_date = ons_deaths.sort_by(ons_deaths.date).last_for_patient()
+dataset.date_of_death = most_recent_death_date.date
+dataset.age_at_death = patients.age_on(most_recent_death_date.date)
