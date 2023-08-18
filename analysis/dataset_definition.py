@@ -16,6 +16,11 @@ vte_codes_secondary = codelist_from_csv(
     column="ICD_code"
 )
 
+vte_codes_secondary_mb = codelist_from_csv(
+    "codelists/user-matthewberesford92-venous-thromboembolism.csv",
+    column="code"
+)
+
 vte_primary_events = clinical_events.where(
     (clinical_events.ctv3_code.is_in(vte_codes_primary))
     & (clinical_events.date >= start_date)
@@ -40,6 +45,15 @@ dataset.age_at_death = patients.age_on(most_recent_death_date.date)
 # patients with hospital admission code of vte
 dataset.first_vte_hospitalisation_date = hospital_admissions.where(
         hospital_admissions.primary_diagnoses.is_in(vte_codes_secondary)
+).where(
+        hospital_admissions.admission_date.is_on_or_after(start_date)
+).sort_by(
+        hospital_admissions.admission_date
+).first_for_patient().admission_date
+
+# mb -- patients with hospital admission code of vte
+dataset.first_vte_hospitalisation_date_mb = hospital_admissions.where(
+        hospital_admissions.primary_diagnoses.is_in(vte_codes_secondary_mb)
 ).where(
         hospital_admissions.admission_date.is_on_or_after(start_date)
 ).sort_by(

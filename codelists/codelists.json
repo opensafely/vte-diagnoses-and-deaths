@@ -11,6 +11,12 @@
       "url": "https://codelists.opensafely.org/codelist/opensafely/venous-thromboembolic-disease-hospital/2020-10-01/",
       "downloaded_at": "2023-07-17 10:58:20.644975Z",
       "sha": "5dd9d60df2ad93e622d76e0d7d90f71d14168af1"
+    },
+    "user-matthewberesford92-venous-thromboembolism.csv": {
+      "id": "user/matthewberesford92/venous-thromboembolism/6a914678",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/venous-thromboembolism/6a914678/",
+      "downloaded_at": "2023-08-18 13:41:49.344602Z",
+      "sha": "9d3a535f0634a07eb15ddd03f716b9a3f907c905"
     }
   }
 }
