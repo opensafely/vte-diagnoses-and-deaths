@@ -11,9 +11,10 @@ vte_codes_primary = codelist_from_csv(
     "codelists/opensafely-venous-thromboembolic-disease.csv",
     column="CTV3Code",
 )
- vte_codes_secondary = codelist_from_csv(
-     "codelists/opensafely-venous-thromboembolic-disease-hospital.csv"
- )
+vte_codes_secondary = codelist_from_csv(
+    "codelists/opensafely-venous-thromboembolic-disease-hospital.csv",
+    column="ICD_code"
+)
 
 vte_primary_events = clinical_events.where(
     (clinical_events.ctv3_code.is_in(vte_codes_primary))
@@ -38,9 +39,9 @@ dataset.age_at_death = patients.age_on(most_recent_death_date.date)
 
 # patients with hospital admission code of vte
 dataset.first_vte_hospitalisation_date = hospital_admissions.where(
-        hospital_admissions.snomedct_code.is_in(vte_codes_secondary)
+        hospital_admissions.primary_diagnoses.is_in(vte_codes_secondary)
 ).where(
-        hospital_admissions.date.is_on_or_after(start_date)
+        hospital_admissions.admission_date.is_on_or_after(start_date)
 ).sort_by(
-        hospital_admissions.date
-).first_for_patient().date
+        hospital_admissions.admission_date
+).first_for_patient().admission_date
