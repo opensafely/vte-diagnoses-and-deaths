@@ -1,0 +1,834 @@
+code,term
+10001005,Bacterial sepsis
+1010626008,Recurrent peritonsillar abscess
+10188004,Acute osteomyelitis of hand
+10193001,Arthritis caused by Pseudomonas
+10321002,Abscess of mastoid
+1032841000000102,Extended spectrum beta-lactamase resistant bacterial infection
+1036671000000106,Severe sepsis
+10625351000119105,Bronchopneumonia caused by methicillin resistant Staphylococcus aureus
+1073061000119105,Arthritis of right shoulder caused by Streptococcus
+1073071000119104,Arthritis of left shoulder caused by Streptococcus
+1073141000119105,Arthritis of right hip caused by genus Streptococcus
+1073151000119107,Arthritis of left hip caused by genus Streptococcus
+1073181000119100,Arthritis of right ankle caused by genus Streptococcus
+1073201000119104,Arthritis of left ankle caused by genus Streptococcus
+1073221000119108,Arthritis of right shoulder caused by bacteria
+1073231000119106,Arthritis of left shoulder caused by bacteria
+1073241000119102,Arthritis of right elbow caused by bacteria
+1073251000119100,Arthritis of left elbow caused by bacteria
+1073261000119103,Arthritis of right wrist caused by bacteria
+1073271000119109,Arthritis of left wrist caused by bacteria
+1073281000119107,Arthritis of right hand caused by bacteria
+1073291000119105,Arthritis of left hand caused by bacteria
+1073301000119106,Arthritis of right hip caused by bacteria
+1073311000119109,Arthritis of left hip caused by bacteria
+1073321000119102,Arthritis of right knee caused by bacteria
+1073331000119104,Arthritis of left knee caused by bacteria
+1073341000119108,Arthritis of right ankle caused by bacteria
+1073351000119105,Arthritis of right foot caused by bacteria
+1073361000119107,Arthritis of left foot caused by bacteria
+1073371000119101,Arthritis of left ankle caused by bacteria
+10751351000119104,Sepsis due to ectopic pregnancy
+1076281000000108,Amber flag sepsis
+1077351000119104,Acute osteomyelitis of right foot
+1077371000119108,Acute osteomyelitis of left foot
+1077611000119106,Chronic osteomyelitis of right ankle
+1077631000119101,Chronic osteomyelitis of left ankle
+1077651000119107,Osteomyelitis of right shoulder
+1077661000119109,Osteomyelitis of left shoulder
+1077711000119104,Osteomyelitis of right hand
+1077721000119106,Osteomyelitis of left hand
+1077731000119109,Osteomyelitis of right femur
+1077741000119100,Osteomyelitis of left femur
+1077751000119103,Osteomyelitis of right tibia
+1077761000119101,Osteomyelitis of left tibia
+1077791000119108,Osteomyelitis of left ankle
+1077801000119109,Osteomyelitis of right ankle
+1077811000119107,Osteomyelitis of left foot
+1077821000119100,Osteomyelitis of right foot
+10812001000119100,Sepsis due to incomplete miscarriage
+1082451000119102,Encephalitis caused by Actinomyces
+1084011000119100,Inflammation of bilateral mastoids
+1086071000119103,Diphtheria tubulointerstitial nephropathy
+1086991000119103,Gonococcal abscess of brain
+1087051000119109,Gonococcal osteomyelitis
+1088041000119106,Acute inflammation of left mastoid
+1089071000119109,Inflammation of left mastoid
+1089641000119109,Subperiosteal abscess of left mastoid
+1090661000119101,Acute inflammation of right mastoid
+1091681000119104,Inflammation of right mastoid
+1092251000119102,Subperiosteal abscess of right mastoid
+1092371000119103,Salmonella pyelonephritis
+1092461000119104,Sepsis without acute organ dysfunction
+1092471000119105,Septic shock co-occurrent with acute organ dysfunction due to Chromobacterium
+1092481000119108,Septic shock co-occurrent with acute organ dysfunction due to coagulase-negative Staphylococcus
+1092491000119106,Septic shock co-occurrent with acute organ dysfunction due to Enterococcus
+1092501000119104,Septic shock co-occurrent with acute organ dysfunction due to Gonococcus
+1092511000119101,Septic shock co-occurrent with acute organ dysfunction due to Gram-positive coccus
+1092531000119106,Septic shock co-occurrent with acute organ dysfunction due to Group A streptococcus
+1092541000119102,Septic shock co-occurrent with acute organ dysfunction due to Group B streptococcus
+1092571000119109,Sepsis caused by Chromobacterium
+1092591000119105,Sepsis caused by Enterococcus
+1092601000119103,Sepsis caused by Gonococcus
+1092831000119109,Toxoplasma tubulointerstitial nephropathy
+109303003,Osteomyelitis of facial bone
+109304009,Osteomyelitis of frontal bone
+109305005,Osteomyelitis of zygomatic bone
+109306006,Osteomyelitis of sphenoid bone
+109307002,Osteomyelitis of temporal bone
+109308007,Osteomyelitis of nasal-orbit complex
+109309004,Acute osteomyelitis of facial bone
+109310009,Acute osteomyelitis of frontal bone
+109311008,Acute osteomyelitis of zygomatic bone
+109312001,Acute osteomyelitis of sphenoid bone
+109313006,Acute osteomyelitis of temporal bone
+109314000,Acute osteomyelitis of nasal-orbit complex
+109692008,Osteomyelitis of maxilla
+109693003,Acute osteomyelitis of maxilla
+109695005,Osteomyelitis of mandible
+109696006,Acute osteomyelitis of mandible
+109902004,Acute purulent meningitis
+109909008,Acute suppurative mastoiditis
+111286002,Acute bacterial endocarditis
+111538005,Acute mastoiditis with complication
+111820003,Staphylococcal arthritis
+1125006,Sepsis during labor
+1141645001,Infectious vegetative endocarditis
+1141647009,Infective endocarditis of cardiac valve with vegetation
+1142039007,Neonatal necrotizing fasciitis caused by Staphylococcus aureus
+1142092000,Late congenital syphilitic osteochondropathy
+1142099009,Secondary syphilis of synovium
+1142205000,Neonatal necrotizing fasciitis caused by Streptococcus
+1142227009,Arthritis of knee joint caused by Borrelia burgdorferi
+1144501009,Acute osteomyelitis of pelvis and femur
+1149093006,Pneumonia caused by vancomycin resistant Enterococcus
+1149095004,Meningitis caused by Streptococcus suis
+1149481006,Sepsis caused by Coliform
+1149482004,Sepsis caused by Clostridium
+1149486001,Sepsis caused by Proteus
+1149494008,Sepsis caused by Erysipelothrix rhusiopathiae
+1153534006,Sepsis caused by vancomycin resistant Enterococcus
+1162292003,Inflammation of intervertebral disc caused by Mycobacterium
+1162293008,Inflammation of joint caused by Mycobacterium
+1162330007,Spondyloarthritis caused by Mycobacterium
+1162356000,Inflammation of joint of hand caused by Mycobacterium tuberculosis
+1162879007,Inflammation of joint of shoulder region caused by Mycobacterium tuberculosis
+1163075005,Infective subacute endocarditis of left side of heart
+1163089000,Acute endocarditis of left side of heart due to infection
+1163107004,Colitis caused by methicillin-resistant Staphylococcus aureus
+1163131009,Abscess of cerebrum caused by Aspergillus
+1163132002,Meningitis caused by Gram positive aerobic rod
+1163490004,Abscess of spinal epidural space caused by kingdom Fungi
+1163524004,Food-borne intoxication caused by Clostridium difficile
+1163546007,Encephalomyelitis caused by Genus Mycobacterium
+116431000119103,Infective polyarthritis caused by bacteria
+11676005,Tuberculous leptomeningitis
+1172958005,Intestinal infection caused by Clostridioides difficile
+1172959002,Extraintestinal infection caused by Clostridioides difficile
+1176992006,Abscess of spinal cord caused by Genus Mycobacterium
+1176997000,Skin infection caused by Methicillin resistant Staphylococcus aureus
+1177019009,Abscess of temporal lobe
+1177033009,Infection of skin caused by Panton-Valentine leukocidin producing Staphylococcus aureus
+1179378005,Osteomyelitis caused by Salmonella enterica subspecies enterica serovar Typhi
+1179405006,Inflammation of joint caused by Salmonella enterica subspecies enterica serovar Typhi
+1193735000,Inflammation of small intestine caused by methicillin-resistant Staphylococcus aureus
+1193736004,Inflammation of intestine caused by methicillin-resistant Staphylococcus aureus
+1201760007,Sepsis caused by Bacteroides
+1204037006,Sepsis following induced termination of pregnancy
+1204459002,Lung injury with sepsis
+1204460007,Myocardial dysfunction with sepsis
+1204461006,Gastrointestinal lesion with sepsis
+1204462004,Left ventricular failure with sepsis
+1204463009,Encephalopathy with sepsis
+1204464003,Gastrointestinal hemorrhage with sepsis
+1204466001,Gastritis with sepsis
+1204467005,Gastrointestinal ulceration due to sepsis
+1204468000,Right ventricular failure with sepsis
+12166008,Staphylococcal meningitis
+12266551000119108,Postprocedural septic shock
+1230323000,Sepsis of premature infant
+1230394004,Infection caused by extended spectrum beta-lactamase producing Proteus mirabilis
+1230395003,Infection caused by extended spectrum beta-lactamase producing Klebsiella oxytoca
+123588006,Confluent bronchopneumonia with abscess formation
+123589003,Necrotizing bronchopneumonia
+123611003,Subacute pyelonephritis
+123754002,Focal pyelonephritis
+123755001,Diffuse pyelonephritis
+124691000119101,Pneumonia caused by methicillin resistant Staphylococcus aureus
+12677003,Tuberculosis of brain
+127091000119100,Sepsis of newborn caused by group B Streptococcus
+127141000119107,Septic shock co-occurrent with acute organ dysfunction caused by anaerobic bacteria
+127171000119100,Septic shock co-occurrent with acute organ dysfunction caused by Haemophilus influenzae
+127181000119102,Septic shock co-occurrent with acute organ dysfunction caused by Meningococcus
+127191000119104,Septic shock co-occurrent with acute organ dysfunction caused by methicillin susceptible Staphylococcus aureus
+127201000119101,Septic shock co-occurrent with acute organ dysfunction caused by Pseudomonas
+127231000119108,Septic shock co-occurrent with acute organ dysfunction caused by Serratia
+127241000119104,Septic shock co-occurrent with acute organ dysfunction due to Staphylococcus
+127251000119102,Septic shock co-occurrent with acute organ dysfunction caused by Streptococcus
+127261000119100,Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus
+127311000119106,Sepsis caused by Meningococcus
+127331000119101,Sepsis caused by methicillin susceptible Staphylococcus aureus
+127411000119102,Toxic shock syndrome caused by methicillin susceptible Staphylococcus aureus
+127421000119109,Toxic shock syndrome caused by methicillin resistant Staphylococcus aureus infection
+128381000119104,Septic shock co-occurrent with acute organ dysfunction caused by methicillin resistant Staphylococcus aureus
+1290841000000104,Sepsis caused by monkeypox virus
+129132000,Bacterial infectious disease of brain
+12983003,Failed attempted abortion with septic shock
+13386009,Intraspinal embolic abscess
+13691000119103,Epidural empyema
+14188007,Tuberculosis of hip
+14343001,Acute pyelitis with renal medullary necrosis
+14405000,Spinal subdural abscess
+14527007,Tuberculous empyema
+145781000119106,Infection of transplanted kidney
+15033003,Peritonsillar abscess
+151004,Gonococcal meningitis
+1551001,Osteomyelitis of femur
+15689921000119100,Arthritis of bilateral knees caused by Staphylococcus
+15690201000119107,Arthritis of bilateral feet caused by domain Bacteria
+15690321000119109,Arthritis of bilateral wrists caused by Bacteria
+15765005,Septic shock due to transfusion
+16015871000119100,Arthritis of joint of bilateral ankles caused by genus Streptococcus
+16030311000119102,Subacute osteomyelitis of right foot
+16030511000119107,Subacute osteomyelitis of left foot
+16271000119108,Pyelonephritis in pregnancy
+16300007,Spinal cord abscess
+16751003,Acute tubulointerstitial nephritis associated with systemic infection
+16780001000004106,Abscess of aorta
+17028003,Osteomyelitis of forearm
+17121006,Mumps nephritis
+17136009,Tuberculosis of knee
+171472002,Drainage of abscess of brain tissue
+171722000,Evacuation of intracranial subdural abscess
+18071005,Meningococcal encephalitis
+18504008,Toxic shock syndrome
+186172004,Tuberculous pleurisy in primary progressive tuberculosis
+186182003,Tuberculosis of pleura
+186200004,"Tuberculous pleurisy, confirmed bacteriologically and histologically"
+186217006,Tuberculous abscess of brain
+186284005,Plague meningitis
+186318004,Listerial endocarditis
+186414001,Gas gangrene of neck
+186415000,Gas gangrene of back
+186416004,Gas gangrene of shoulder region
+186417008,Gas gangrene of upper arm
+186418003,Gas gangrene of forearm
+186419006,Gas gangrene of hand
+186420000,Gas gangrene of pelvic region of trunk
+186421001,Gas gangrene of thigh
+186422008,Gas gangrene of lower leg
+186423003,Gas gangrene of foot
+186431008,Infection caused by Clostridioides difficile
+186863009,Acute secondary syphilitic meningitis
+186875004,Syphilitic endocarditis of mitral valve
+186877007,Syphilitic endocarditis of tricuspid valve
+186878002,Syphilitic endocarditis of pulmonary valve
+186956008,Leptospiral meningitis
+187041005,Histoplasma capsulatum with endocarditis
+187051006,Histoplasma duboisii with endocarditis
+187080002,Pheohyphomycotic brain abscess
+18920006,Acute bacterial arthritis
+18988001,Septic pleurisy
+190710003,Tuberculous arthritis
+19192002,Yaws of joint
+192643004,Haemophilus meningitis
+192644005,Meningococcal meningitis
+192647003,Secondary syphilitic meningitis
+192648008,Meningitis caused by typhoid fever
+192649000,Actinomycotic meningitis
+192650000,Meningitis caused by pertussis
+192654009,Meningitis caused by bacillus pyocyaneus
+192655005,Escherichia coli meningitis
+192656006,Meningitis caused by Friedlander bacillus
+192659004,Morganella morganii meningitis
+192660009,Pseudomonas meningitis
+192737006,Intracranial and intraspinal abscesses
+192743008,Epidural intracranial abscess
+192744002,Subdural intracranial abscess
+19375000,Pyogenic arthritis of pelvic region
+194394004,Gram positive sepsis
+194921005,Acute and subacute endocarditis
+194926000,Acute and subacute infective endocarditis associated with another disorder
+194929007,Endocarditis - typhoid
+194931003,Endocarditis - blastomycosis
+195012000,Endocarditis associated with another disorder
+196067009,Loculated empyema
+196107009,Abscess of lung and mediastinum
+196108004,Single lung abscess
+196109007,Multiple lung abscesses
+196112005,Abscess of lung with pneumonia
+197760006,Chronic pyelonephritis without medullary necrosis
+197761005,Chronic pyelonephritis with medullary necrosis
+197762003,Chronic pyelitis
+197763008,Chronic pyonephrosis
+197764002,Non-obstructive reflux-associated chronic pyelonephritis
+197768004,Acute pyelonephritis without medullary necrosis
+197769007,Acute pyelonephritis with medullary necrosis
+197770008,Acute pyonephrosis
+197772000,Renal and perinephric abscess
+197782004,Pyelonephritis associated with another disorder
+197783009,Pyelitis associated with another disorder
+19956000,Acute osteomyelitis of forearm
+200196001,Puerperal sepsis with postnatal complication
+201466005,Staphylococcal arthritis and polyarthritis
+201467001,Pneumococcal arthritis and polyarthritis
+201517005,Seronegative arthritis secondary to Whipple's disease
+203153007,Acute osteomyelitis of lower leg
+203157008,Acute osteomyelitis of cervical spine
+203158003,Acute osteomyelitis of thoracic spine
+203159006,Acute osteomyelitis of lumbar spine
+203160001,Acute osteomyelitis of sacrum
+203161002,Acute osteomyelitis of coccyx
+203162009,Acute osteomyelitis of clavicle
+203163004,Acute osteomyelitis of scapula
+203164005,Acute osteomyelitis of humerus
+203165006,Acute osteomyelitis of radius
+203166007,Acute osteomyelitis of ulna
+203167003,Acute osteomyelitis of carpal bone
+203168008,Acute osteomyelitis of metacarpal
+203169000,Acute osteomyelitis of phalanx of hand
+203170004,Acute osteomyelitis of femur
+203171000,Acute osteomyelitis of patella
+203172007,Acute osteomyelitis of tibia
+203173002,Acute osteomyelitis of fibula
+203174008,Acute osteomyelitis of calcaneum
+203175009,Acute osteomyelitis of talus
+203177001,Acute osteomyelitis of metatarsal
+203178006,Acute osteomyelitis of phalanx of toe
+203179003,Acute hematogenous osteomyelitis
+203221007,Osteomyelitis of coccyx
+203222000,Osteomyelitis of clavicle
+203241002,Osteomyelitis of vertebra
+203296008,Subacute osteomyelitis of cervical spine
+203297004,Subacute osteomyelitis of thoracic spine
+203298009,Subacute osteomyelitis of lumbar spine
+203299001,Subacute osteomyelitis of sacrum
+203300009,Subacute osteomyelitis of coccyx
+20358003,Pyogenic arthritis of ankle
+206376005,Sepsis of the newborn
+206378006,Sepsis of newborn caused by Staphylococcus aureus
+206379003,Sepsis of newborn caused by Escherichia coli
+206380000,Sepsis of newborn caused by anaerobes
+21120002,Osteomyelitis of lower leg
+213255003,Postoperative endotoxic shock
+213256002,Postoperative septic shock
+21534009,Arthritis caused by Escherichia coli
+22352007,Acute bacterial tubulointerstitial nephritis
+22462001,Chronic bacterial endocarditis
+230148000,Staphylococcus aureus meningitis
+230149008,Staphylococcus epidermidis meningitis
+230150008,Meningitis in Lyme disease
+230152000,Late congenital syphilitic meningitis
+230158001,"Bacterial ventriculitis, brain"
+230181004,Bacterial encephalitis
+230182006,Late syphilitic encephalitis
+230194002,Neuro - Whipple's disease
+230203007,Intracranial pyogenic abscess
+230204001,Epidural supratentorial pyogenic abscess
+230206004,Subdural supratentorial pyogenic abscess
+230207008,Subdural infratentorial pyogenic abscess
+230208003,Cerebral pyogenic abscess
+230209006,Actinomycotic brain abscess
+230210001,Brainstem pyogenic abscess
+230211002,Multiple intracranial pyogenic abscesses
+230213004,Candidal brain abscess
+230216007,Intraspinal pyogenic abscess
+230812000,Evacuation of intracranial extradural abscess
+230838000,Focal excision of brain abscess
+230989001,Evacuation of spinal extradural abscess
+230994001,Evacuation of spinal intradural extramedullary abscess
+231010001,Excision of spinal cord abscess
+231027009,Aspiration of spinal abscess
+232268006,Acute mastoiditis with neck abscess
+232269003,Acute mastoiditis with facial paralysis
+232270002,Acute mastoiditis with labyrinthitis
+232271003,Acute mastoiditis with intracranial complication
+233850007,Infective endocarditis
+233851006,Rickettsial endocarditis
+233852004,Culture-negative endocarditis
+233853009,Prosthetic valve endocarditis
+234173007,Hyperdynamic septic shock
+234174001,Hypodynamic septic shock
+236373001,Emphysematous pyelonephritis
+236374007,Chronic infective interstitial nephritis
+236375008,Emphysematous pyelitis
+236378005,Candida pyelonephritis
+236379002,Chronic obstructive pyelonephritis
+236590008,Cytomegalovirus-induced glomerulonephritis
+236599009,Schistosomiasis of ureter
+236600007,Candida ureteritis
+23698009,Staphylococcal pleurisy with effusion
+23754003,Calculous pyelonephritis
+238150007,Sepsis syndrome
+238399000,Necrotizing fasciitis of scrotum and perineum
+239777004,Knee pyogenic arthritis
+239778009,Wrist pyogenic arthritis
+239779001,Elbow pyogenic arthritis
+239781004,Arthritis caused by spirochaetale infection
+240108006,Gas gangrene of limb
+240109003,Uterine gas gangrene
+240110008,Intestinal gas gangrene
+240142002,Acute osteomyelitis of foot
+240143007,Acute osteomyelitis of ankle
+240393003,Listeria cerebritis
+240435008,Gas gangrene of skin
+240448007,Legionella encephalopathy
+240450004,Staphylococcal toxic shock syndrome
+240451000,Streptococcal toxic shock syndrome
+24051007,Septic shock following molar AND/OR ectopic pregnancy
+240582004,Gonococcal synovitis
+240671002,Lyme erosive synovitis
+24302002,Pneumococcal pleurisy with effusion
+2439002,Purulent endocarditis
+24444009,Failed attempted abortion with sepsis
+24630008,Listeria meningoencephalitis
+24738006,Osteomyelitis of petrous bone
+25738004,Tuberculous synovitis
+2585002,Pneumococcal pleurisy
+26135000,Syphilitic encephalitis
+266091007,Gas gangrene caused by clostridium histolyticum
+266092000,Gas gangrene caused by Clostridium edematiens
+266093005,Gas gangrene caused by clostridium perfringens
+266094004,Gas gangrene caused by clostridium septicum
+266095003,Gas gangrene caused by Paeniclostridium sordellii
+266096002,Methicillin resistant Staphylococcus aureus infection
+266237004,Acute and subacute bacterial endocarditis
+267880006,Pyogenic arthritis of the pelvic region and thigh
+267882003,Pyogenic arthritis of the ankle and/or foot
+268017000,Acute osteomyelitis of ankle and/or foot
+271503005,Pleural empyema with fistula
+271504004,Pleural empyema with no fistula
+27174002,Pyelitis
+272006008,Gonococcal arthritis dermatitis syndrome
+276669000,Bacterial sepsis of newborn
+27810000,Acute viral tubulointerstitial nephritis
+278480000,Syphilitic endocarditis of aortic valve
+27908001,Amebic brain abscess
+28085001,Empyema with bronchopleural fistula
+282028001,Multiple-resistant Staphylococcus aureus infection
+2858002,Puerperal sepsis
+287050006,Acute osteomyelitis of elbow
+287052003,Acute osteomyelitis of hip
+28769004,Osteomyelitis of ankle AND/OR foot
+288242005,Acute osteomyelitis of knee
+301086002,Syphilitic meningitis
+301183007,Bacterial endocarditis
+302877009,Proteus meningitis
+303061003,Cerebellar pyogenic abscess
+30328003,Acute myoendocarditis
+30437004,Empyema with bronchocutaneous fistula
+307292005,Aspiration of brain abscess
+308155002,Methicillin-resistant Staphylococcus aureus infection of postoperative wound
+310521000119105,Pyogenic infection of lumbosacral intervertebral disc
+310541005,Clostridium difficile toxin A detected
+310551000119102,Pyogenic infection of sacrococcygeal intervertebral disc
+31112008,Tuberculous meningoencephalitis
+312221005,Infective ureteritis
+312429005,Abscess of nervous system
+312682007,Empyema
+314042000,Infective pleurisy
+314043005,Viral pleurisy
+3144005,Staphylococcal pleurisy
+31568009,Listeria meningitis
+317811000119100,Arthritis of left hip joint caused by Streptococcus pneumoniae
+317821000119107,Arthritis of left knee caused by Streptococcus pneumoniae
+317831000119105,Arthritis of joint of left shoulder region caused by Streptococcus pneumoniae
+317881000119106,Arthritis of right hip joint caused by Streptococcus pneumoniae
+317891000119109,Arthritis of right knee caused by Streptococcus pneumoniae
+317901000119108,Arthritis of joint of right shoulder region caused by Streptococcus pneumoniae
+321661000119104,Arthritis of left elbow caused by Staphylococcus
+321691000119106,Arthritis of left knee caused by Staphylococcus
+321701000119106,Arthritis of left shoulder caused by Staphylococcus
+321731000119104,Arthritis of right elbow caused by Staphylococcus
+321761000119107,Arthritis of right knee caused by Staphylococcus
+321771000119101,Arthritis of right shoulder caused by Staphylococcus
+32392003,Acute osteomyelitis of jaw
+32735002,Congenital syphilitic encephalitis
+32801008,Acute pyelitis
+3321001,Renal abscess
+335846001,Acute mastoiditis without complications
+33631007,Pyopneumothorax
+33937009,Lyme arthritis
+34286007,Empyema with hepatopleural fistula
+34521000087103,Infection caused by carbapenemase-producing Enterobacteriaceae
+34845009,Meningococcal endocarditis
+34934005,Pyogenic arthritis of multiple sites
+35786001,Tuberculoma of meninges
+359844001,Extradural infratentorial pyogenic abscess
+36309003,Pneumococcal arthritis
+36678001,Pyogenic arthritis of shoulder region
+36689008,Acute pyelonephritis
+371031006,Staphylococcus epidermidis ventriculitis
+371044001,Transient respiratory distress with sepsis
+37133005,Tuberculous pyelitis
+371551001,Osteomyelitis of upper limb
+371769008,Endotoxic shock
+372248009,Suppurative arthritis caused by fungus
+372937009,Suppurative arthritis caused by bacteria
+372938004,Acute suppurative arthritis caused by bacteria
+372941008,Pyogenic arthritis of hip
+373135009,Annular abscess of aortic root
+37660004,Subdural abscess
+37779008,Pyeloureteritis cystica
+38115001,Tuberculosis of spinal meninges
+38523005,Syphilitic parkinsonism
+386034005,Acute mastoiditis
+392233007,Drainage of peritonsillar abscess
+3999002,Acute pyelitis without renal medullary necrosis
+4016003,Empyema of mastoid
+402926000,Neonatal necrotizing fasciitis
+404678001,Infection caused by glycopeptide resistant Staphylococcus aureus
+404681006,Infection caused by vancomycin resistant Staphylococcus aureus
+404907009,Toxic megacolon caused by Clostridium difficile
+405547004,Abscess of myocardium
+405548009,Abscess of cardiac septum
+405554005,Abscess of aortic root
+405950009,Abscess of thorax
+405951008,Abscess of pleural cavity
+406575008,Infection caused by vancomycin resistant enterococcus
+406615007,"Infection caused by vancomycin resistant Staphylococcus aureus, coagulase positive"
+409555000,Q fever aseptic meningitis
+409556004,Q fever encephalitis
+409557008,Q fever osteomyelitis
+409671005,Dengue shock syndrome
+409780002,Acute osteomyelitis
+409802002,Infection caused by extended spectrum beta-lactamase producing bacteria
+409803007,Infection caused by extended spectrum beta-lactamase producing Escherichia coli
+409804001,Infection caused by extended spectrum beta-lactamase producing Klebsiella pneumoniae
+410020008,Polyarthritis caused by Erysipelothrix rhusiopathiae
+416265003,Tuberculoma of brain
+417484006,Tuberculous abscess of spinal cord
+4181000119109,Obstructive pyelonephritis
+419868009,Encephalitis caused by rickettsia
+420395004,Acute endocarditis with acquired immunodeficiency syndrome
+420585007,Meningitis caused by Klebsiella aerogenes
+42231000009109,Bacterial nephritis
+423322005,Recurrent obstructive pyelonephritis
+423561003,Community-acquired methicillin-resistant Staphylococcus aureus infection
+423590009,Clostridium difficile colitis
+423718003,Left sided infective endocarditis
+425177009,Right sided infective endocarditis
+42522007,Abscess of mediastinum
+425548001,Abscess of heart
+425887005,Bacterial meningitis caused by Gram-negative bacteria
+426087004,Right-sided Staphylococcus aureus endocarditis
+427787004,Abscess in epidural space of cervical spine
+427916006,Abscess in epidural space of thoracic spine
+428544003,Abscess of medulla oblongata
+428783003,Osteomyelitis caused by Staphylococcus aureus
+42939002,Pyemia
+429437003,Abscess in epidural space of lumbar spine
+430065009,Abscess of aortic valve
+430402003,Abscess of tricuspid valve caused by bacteria
+430404002,Abscess of medulla of spinal cord caused by Histoplasma
+430616003,Abscess of mitral valve
+431189009,Abscess of tricuspid valve
+431236003,Bacterial arthritis of sacroiliac joint
+431238002,Abscess of pulmonary valve
+431261000,Bacterial abscess of pulmonary valve
+431262007,Bacterial abscess of mitral valve
+431263002,Bacterial arthritis of elbow
+431606003,Bacterial arthritis of hip
+432418003,Bacterial arthritis of patellofemoral joint
+432992007,Bacterial abscess of aortic valve
+44051003,Malignant endocarditis
+441806004,Abscess of brain
+44323002,Tuberculosis of kidney
+444101006,Infection caused by methicillin resistant Staphylococcus intermedius
+444102004,Infection caused by methicillin resistant Staphylococcus pseudintermedius
+444760002,Acute osteomyelitis of vertebra
+444765007,Inflammation of joint caused by Streptococcus suis
+444957003,Bacterial meningomyelitis
+445059005,Meningitis caused by anaerobic bacteria
+445151006,Subarachnoid intracranial abscess
+445198003,Meningitis caused by Haemophilus influenzae type b
+445359003,Bacterial meningoencephalitis
+445408000,Osteomyelitis of tibia
+446413008,Infection caused by Panton-Valentine leukocidin producing Staphylococcus aureus
+446543007,Tuberculous abscess of lung
+447253004,Tuberculous arachnoiditis
+447332005,Tuberculous abscess of epidural space
+44743006,Gonococcal infection of joint
+447684006,Sepsis caused by Erysipelothrix
+447685007,Sepsis caused by Haemophilus influenzae
+447841007,Sepsis caused by Candida
+447843005,Sepsis caused by anaerobic bacteria
+447894003,Sepsis caused by Staphylococcus
+447897005,Sepsis caused by Acinetobacter
+447898000,Sepsis caused by Actinomyces
+447899008,Sepsis caused by Escherichia coli
+447931005,Clinical sepsis
+448417001,Sepsis caused by Staphylococcus aureus
+448418006,Sepsis caused by Streptococcus
+448419003,Sepsis caused by Streptococcus agalactiae
+448420009,Sepsis caused by Streptococcus group D
+448421008,Sepsis caused by Streptococcus pneumoniae
+448422001,Sepsis caused by Streptococcus suis
+448482003,Sepsis caused by Bacillus anthracis
+448483008,Sepsis caused by Enterobacter
+448784003,Sepsis caused by herpes simplex
+448812000,Sepsis caused by methicillin resistant Staphylococcus aureus
+448813005,Sepsis caused by Pseudomonas
+449082003,Sepsis caused by Gram negative bacteria
+449083008,Sepsis caused by Salmonella
+449084002,Sepsis caused by Serratia
+449335002,Sepsis caused by Listeria monocytogenes
+449504009,Sepsis caused by Streptococcus pyogenes
+449505005,Sepsis caused by coagulase negative Staphylococcus
+449546000,Sepsis caused by Haemophilus influenzae type b
+449900006,Necrotizing fasciitis caused by Streptococcus pyogenes
+4510004,Streptococcal meningitis
+457582006,Abscess of right ventricular wall
+457587000,Abscess of left ventricular wall
+458038006,Abscess of truncal valve
+45816000,Pyelonephritis
+459056003,Acute infective endocarditis
+459057007,Viral endocarditis
+459058002,Infective endocarditis of homograft
+459059005,Infective endocarditis of heterograft
+459060000,Infective endocarditis of right ventricular wall
+459061001,Infective endocarditis of left ventricular wall
+459067002,Infective endocarditis of cardiac valve
+459068007,Infective endocarditis of aortic valve
+459151006,Infective endocarditis of tricuspid valve
+459152004,Infective endocarditis of mitral valve
+459153009,Infective endocarditis of pulmonary valve
+459154003,Infective endocarditis of truncal valve
+459155002,Abscess of cardiovascular structure of trunk
+459156001,Abscess of cardiovascular homograft
+459157005,Abscess of cardiovascular heterograft
+459158000,Infective endocarditis of left atrioventricular (not morphologically mitral) valve
+459159008,Infective endocarditis of right atrioventricular (not morphologically tricuspid) valve
+459160003,Abscess at site of aortic coarctation
+459161004,Abscess at site of ventricular septal defect
+459162006,Abscess of common atrioventricular valve
+459172009,Infective endocarditis at site of ventricular septal defect
+459174005,Infective endocarditis at site of interatrial communication
+459175006,Abscess of left atrioventricular (not morphologically mitral) valve
+459176007,Abscess of right atrioventricular (not morphologically tricuspid) valve
+459177003,Abscess at site of interatrial communication
+459178008,Infective endocarditis of common atrioventricular valve
+459179000,Abscess at site of ductus arteriosus
+460358000,Infective endocarditis at site of patch of ventricular septal defect
+460490009,Infective endocarditis at site of patch of interatrial communication
+460618008,Endocarditis caused by Genus Chlamydia
+460619000,Abscess of wall of truncus arteriosus
+461429009,Infective endocarditis of vascular cardiac conduit
+461432007,Abscess at site of cardiac valve prosthesis
+461437001,Abscess at site of systemic to pulmonary arterial shunt
+46165000,Chronic endocarditis due to rheumatic heart disease
+46527004,Haemophilus influenzae arthritis
+472806007,Endocarditis as complication of procedure
+48228003,Subacute periendocarditis
+48245008,Bacterial arthritis
+4851007,Chronic endocarditis
+48631008,Pyonephrosis
+50694005,Empyema with mediastinal fistula
+51169003,Pneumococcal meningitis
+51646002,Streptococcal arthritis
+51928006,General paresis - neurosyphilis
+52404001,Mastoiditis
+52486002,Necrotizing fasciitis
+52987001,Tuberculosis of endocardium
+53453008,Osteomyelitis of shoulder region
+53874003,Acute periendocarditis
+54072008,Nonbacterial verrucal endocardiosis
+56819008,Endocarditis
+58392004,Congenital syphilitic osteochondritis
+58437007,Tuberculosis of meninges
+58554001,Empyema of pleura
+58764007,Tuberculous osteomyelitis
+5891000119102,Clostridium difficile diarrhea
+5900006,Haemophilus influenzae meningitis
+59484000,Chlamydial polyarthritis
+59867002,Acute osteomyelitis of multiple sites
+60168000,Osteomyelitis
+60404007,Cerebral abscess
+60684003,Synovitis acne pustulosis hyperostosis osteomyelitis syndrome
+609487007,Induced termination of pregnancy complicated by septic shock
+61011009,Bacterial osteomyelitis
+61048000,Gonococcal endocarditis
+61112000,Pyogenic arthritis of hand
+61176006,Mycoplasma arthritis
+61585002,Osteomyelitis of hand
+61974008,Epidural abscess
+62206004,Abscess of pituitary
+6267005,Congenital syphilitic meningitis
+63302006,Chronic pyelonephritis
+63553008,Candidal endocarditis
+63627007,Spinal epidural abscess
+65095005,Amebic lung abscess
+65875003,Orbital osteomyelitis
+66893008,Subacute endocarditis
+66993009,Acute infectious tubulointerstitial nephritis
+67322009,Subacute osteomyelitis
+67391006,Syphilitic endocarditis
+67465009,Miscarriage with sepsis
+679581000119102,Osteomyelitis of orbit of left eye
+679591000119104,Osteomyelitis of orbit of right eye
+6803002,Salmonella osteomyelitis
+6861003,Pyogenic arthritis of foot
+68863007,Acute syphilitic meningitis
+69589006,Subacute myoendocarditis
+698734003,Postoperative bacterial meningitis
+698819004,Postoperative sepsis
+699951008,Gas gangrene of lower limb
+699952001,Gas gangrene of upper limb
+700054008,Sepsis caused by fungus
+700055009,Sepsis with cutaneous manifestations
+700076004,Osteomyelitis of ankle
+700439005,Osteomyelitis of midfoot
+700440007,Osteomyelitis of hindfoot
+703179007,Endocarditis of prosthetic mitral valve
+703189006,Endocarditis of prosthetic aortic valve
+703190002,Endocarditis of prosthetic tricuspid valve
+703191003,Endocarditis of prosthetic pulmonary valve
+705059000,Osteomyelitis of forefoot
+7063008,Gangrenous pneumonia
+707208009,Familial non-obstructive reflux-associated chronic pyelonephritis
+707271004,Sepsis due to oral infection
+708025003,Pyopneumothorax following infection by Coccidioides
+708057002,Sclerosing osteomyelitis
+709200009,Bacterial arthritis of costotransverse joint
+7097001,Streptococcal pleurisy with effusion
+70993000,Pyrogenic shock
+712521003,Bacterial arthritis caused by Haemophilus influenzae type b
+712524006,Bacterial arthritis of atlantoaxial joint
+712530006,Bacterial arthritis of costovertebral joint
+712547007,Bacterial arthritis of facet joint of thoracic spine
+712548002,Bacterial arthritis of facet joint of lumbar spine
+712549005,Bacterial arthritis of facet joint of cervical spine
+712861006,Osteomyelitis of sacrum
+71299003,Salmonella arthritis
+713511002,Acute endocarditis co-occurrent with human immunodeficiency virus infection
+71375000,Tuberculosis of mastoid process
+713854001,Perinatal sepsis
+713865006,Perinatal sepsis caused by Streptococcus agalactiae
+713866007,Perinatal sepsis caused by Escherichia coli
+714083007,Recurrent salmonella sepsis co-occurrent with human immunodeficiency virus infection
+715070000,Sepsis caused by Peptostreptococcus
+715071001,Sepsis caused by anaerobic streptococcus
+720989003,Endocarditis caused by Erysipelothrix rhusiopathiae
+720990007,Meningitis caused by Bacillus anthracis
+72102005,Subperiosteal abscess of mastoid
+721102001,Osteomyelitis caused by Pasteurella multocida
+721104000,Sepsis due to urinary tract infection
+721240006,Meningitis caused by gram-negative aerobic coccus
+721241005,Meningitis caused by gram-negative aerobic bacillus
+721242003,Meningitis caused by Spirochaetes
+721250007,Abscess of spinal cord caused by bacterium
+721278008,Neonatal sepsis caused by Malassezia
+721572008,Sepsis caused by Pseudomonas aeruginosa
+721729004,Meningitis caused by Enterobacter
+721746001,Meningitis caused by Streptococcus agalactiae
+721748000,Meningitis caused by Enterococcus
+721749008,Meningitis caused by methicillin resistant Staphylococcus aureus
+721752000,Meningitis caused by Actinomycetales
+721753005,Meningitis caused by Nocardia
+721754004,Meningitis caused by Tropheryma whipplei
+721807009,Abscess caused by Entamoeba histolytica
+72181000119109,Endocarditis due to systemic lupus erythematosus
+722893002,Polymicrobial necrotizing fasciitis
+723088005,Periendocarditis due to infection
+723864009,Infection causing subacute endocarditis
+723865005,Infection causing myoendocarditis
+724543006,Infection causing multiple abscesses of brain
+73028002,Staphylococcal endocarditis
+73198007,Bacterial pleurisy
+733142005,Sepsis following obstructed labor
+73452002,Abscess of lung
+735554004,Infection causing abscess of central nervous system
+735555003,Deep abscess of cerebral hemisphere
+735556002,Abscess of corpus callosum
+735637004,Sepsis of neonate caused by Streptococcus pyogenes
+735638009,Sepsis of fetus caused by Streptococcus pyogenes
+73774007,Subacute bacterial endocarditis
+7448003,Acute pyonephrosis with renal medullary necrosis
+750511000000101,Biliary sepsis
+75286007,Osteomyelitis of upper arm
+7587000,Acute osteomyelitis of shoulder region
+762528007,Sepsis caused by Klebsiella pneumoniae
+762529004,Sepsis caused by Acinetobacter baumannii
+762539005,Endocarditis of neoaortic valve
+762540007,Endocarditis of neopulmonary valve
+763888005,Necrotizing pneumonia caused by Panton-Valentine leukocidin producing Staphylococcus aureus
+764993001,Encephalitis caused by Mycoplasma pneumoniae
+765106006,Early-onset neonatal sepsis
+765107002,Late-onset neonatal sepsis
+76571007,Septic shock
+76630008,Fibrinopurulent pleurisy
+770349000,Sepsis caused by virus
+77645007,Salmonella meningitis
+78887005,Seropurulent pleurisy
+789043007,Sepsis without septic shock
+789685005,Recurrent infection caused by Clostridioides difficile
+79897009,Cerebellar abscess
+80466000,Gas gangrene
+80507005,Acute osteomyelitis of pelvic region
+81359005,Tuberculosis of ureter
+826051000000107,Infection due to carbapenemase producing Enterobacteriacea
+82959004,Dementia paralytica juvenilis
+83707009,Neonatal osteomyelitis of jaw
+838315004,Encephalomyelitis caused by Burkholderia
+838316003,Subacute endocarditis of right side of heart due to infection
+838332000,Abscess of brainstem
+838353009,Acute pyelonephritis caused by bacterium
+838356001,Acute endocarditis of right side of heart due to infection
+838358000,Acute and subacute endocarditis of left side of heart due to infection
+838360003,Arthritis caused by Mycobacterium leprae
+838371002,Abscess of cerebral hemisphere lobe
+838373004,Abscess of frontal lobe
+838384006,Abscess of subdural space of spinal cord caused by fungus
+838387004,Abscess of spinal subdural space caused by Mycobacterium
+838388009,Abscess of spinal epidural space caused by Mycobacterium
+838389001,Abscess of spinal subdural space caused by bacterium
+838390005,Abscess of spinal cord caused by fungus
+838391009,Abscess of spinal epidural space caused by bacterium
+838392002,Abscess of parietal lobe
+838393007,Abscess of pons cerebri
+838394001,Abscess of midbrain
+838395000,Abscess of occipital lobe
+840440006,Encephalitis caused by Leptospira species
+840496004,Encephalitis caused by Borrelia species
+840511005,Compression of spinal cord due to intraspinal abscess
+84224006,Suppurative osteomyelitis of jaw
+846604005,Osteomyelitis of sternum
+85420008,Streptococcal pleurisy
+85426002,Bacterial pleurisy with effusion
+85495007,Acute pyonephrosis without renal medullary necrosis
+860803004,Hydrocephalus due to tuberculosis of brain
+860805006,Encephalomyelitis caused by Neisseria meningitidis
+860822008,Encephalitis caused by Nocardia
+860841006,Encephalomyelitis caused by bacterium
+860842004,Encephalomyelitis caused by Coxiella burnetii
+860847005,Granuloma of spinal subdural space caused by Mycobacterium
+860850008,Granuloma of spinal subdural space caused by bacterium
+86100009,Vegetative endocarditis
+86348002,Mycotic endocarditis
+866090003,Meningomyelitis caused by Treponema pallidum
+870588003,Sepsis due to disease caused by severe acute respiratory syndrome coronavirus 2
+87415007,Osteomyelitis of jaw
+88129004,Coxsackie endocarditis
+8872002,Osteomyelitis of pelvic region
+89637003,Pyelitis glandularis
+89736004,Valvular endocarditis
+90302003,Tuberculosis of cerebral meninges
+91195006,Acute fungal tubulointerstitial nephritis
+91302008,Sepsis
+91357005,Acute endocarditis
+91483004,Tuberculous encephalitis
+91538002,Osteomyelitis of multiple sites
+922431000000103,Glutamate dehydrogenase antigen positive and Clostridium difficile toxin negative
+944061000000108,Neonatal sepsis due to Streptococcus
+944071000000101,Neonatal sepsis due to Staphylococcus
+9467007,Meningococcal arthropathy
+94851000119107,Syphilitic valvular endocarditis
+95423008,Osteomyelitis of cranium
+95424002,Acute osteomyelitis of cranium
+957421000000104,Uncomplicated sepsis
+957431000000102,Red flag sepsis
+957641000000109,Mupirocin resistant Staphylococcus aureus infection
+95883001,Bacterial meningitis
+95889002,Mycoplasmal pyelonephritis
+95890006,Q fever endocarditis

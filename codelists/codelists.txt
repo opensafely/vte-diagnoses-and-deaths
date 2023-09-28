@@ -1,3 +1,12 @@
 opensafely/venous-thromboembolic-disease/2020-09-14
 opensafely/venous-thromboembolic-disease-hospital/2020-10-01
 user/matthewberesford92/venous-thromboembolism/6a914678
+user/jon_massey/serious_acute_infection/19955ea7
+nhsd-primary-care-domain-refsets/chd_cod/20210127
+user/matthewberesford92/coronary-heart-disease-icd10/361e4561
+nhsd-primary-care-domain-refsets/hf_cod/20210127
+pincer/hf/v1.8
+user/matthewberesford92/heart-failure-icd-10/1d0ed22c
+primis-covid19-vacc-uptake/resp_cov/v.1.5.3
+nhsd-primary-care-domain-refsets/c19preg_cod/20200812
+user/matthewberesford92/oestrogen-based-drugs-excluding-topical-preparations/0a2b9272
