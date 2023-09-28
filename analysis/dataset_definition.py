@@ -10,27 +10,20 @@ end_date = "2022-12-31"
 
 # importing codelists ####
 
-# conditions # 
-
 codelist_vte_ctv3 = codelist_from_csv(
     "codelists/opensafely-venous-thromboembolic-disease.csv",
-    column="code", # for primary care
+    column="CTV3Code", # for primary care
 )
 
 codelist_vte_icd10 = codelist_from_csv(
     "codelists/opensafely-venous-thromboembolic-disease-hospital.csv",
-    column="code" # for secondary care
+    column="ICD_code" # for secondary care
 )
 
 codelist_vte_icd10_mb = codelist_from_csv(
     "codelists/user-matthewberesford92-venous-thromboembolism.csv",
     column="code" # for secondary care to compare
 )
-
-#codelist_vte_ctv3 = codelist_from_csv(
-#        "codelists/incident-venous-thromboembolic-disease",
-#        column = "CTV3code"
-#)
 
 codelist_acute_infection_snomed = codelist_from_csv(
         "codelists/user-jon_massey-serious_acute_infection.csv",
@@ -77,10 +70,14 @@ codelist_pregnancy_snomed = codelist_from_csv(
     column = "code"    
 )
 
-# medications #
 codelist_hormonal_contraception_dmd = codelist_from_csv(
     "codelists/user-matthewberesford92-oestrogen-based-drugs-excluding-topical-preparations.csv",
     column = "code"    
+)
+
+codelist_ethnicity = codelist_from_csv(
+    "codelists/opensafely-ethnicity.csv",
+    column = "Code"
 )
 
 # events ####
@@ -98,12 +95,18 @@ dataset.define_population(vte_primary_events.exists_for_patient())
 most_recent_vte = vte_primary_events.sort_by(vte_primary_events.date).last_for_patient()
 dataset.date_of_last_vte = most_recent_vte.date
 dataset.code_of_last_vte = most_recent_vte.ctv3_code
-dataset.age_at_last_vte = patients.age_on(most_recent_vte.date)
 
+# vte deaths
 dataset.has_died = ons_deaths.exists_for_patient()
 most_recent_death_date = ons_deaths.sort_by(ons_deaths.date).last_for_patient()
 dataset.date_of_death = most_recent_death_date.date
 dataset.age_at_death = patients.age_on(most_recent_death_date.date)
+
+# age and sex
+dataset.age_at_last_vte = patients.age_on(most_recent_vte.date)
+dataset.sex = patients.sex
+
+# ethnicity 
 
 # patients with hospital admission code of vte
 dataset.first_vte_hospitalisation_date = hospital_admissions.where(
