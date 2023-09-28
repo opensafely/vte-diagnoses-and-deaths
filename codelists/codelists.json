@@ -3,14 +3,74 @@
     "opensafely-venous-thromboembolic-disease.csv": {
       "id": "opensafely/venous-thromboembolic-disease/2020-09-14",
       "url": "https://codelists.opensafely.org/codelist/opensafely/venous-thromboembolic-disease/2020-09-14/",
-      "downloaded_at": "2023-07-17 10:56:13.450052Z",
-      "sha": "4ad6837024f72954807f996e1af75f700ed5dd38"
+      "downloaded_at": "2023-09-28 11:23:57.852584Z",
+      "sha": "eed61426237e7043d7b3be7bd943df5ff05ddcc5"
     },
     "opensafely-venous-thromboembolic-disease-hospital.csv": {
       "id": "opensafely/venous-thromboembolic-disease-hospital/2020-10-01",
       "url": "https://codelists.opensafely.org/codelist/opensafely/venous-thromboembolic-disease-hospital/2020-10-01/",
-      "downloaded_at": "2023-07-17 10:58:20.644975Z",
-      "sha": "5dd9d60df2ad93e622d76e0d7d90f71d14168af1"
+      "downloaded_at": "2023-09-28 11:23:57.969849Z",
+      "sha": "e2fc482c95ad2b731d6aa032ad14f8a60ea76353"
+    },
+    "user-matthewberesford92-venous-thromboembolism.csv": {
+      "id": "user/matthewberesford92/venous-thromboembolism/6a914678",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/venous-thromboembolism/6a914678/",
+      "downloaded_at": "2023-08-18 13:41:49.344602Z",
+      "sha": "9d3a535f0634a07eb15ddd03f716b9a3f907c905"
+    },
+    "user-jon_massey-serious_acute_infection.csv": {
+      "id": "user/jon_massey/serious_acute_infection/19955ea7",
+      "url": "https://codelists.opensafely.org/codelist/user/jon_massey/serious_acute_infection/19955ea7/",
+      "downloaded_at": "2023-09-28 11:23:58.472631Z",
+      "sha": "b22e71c0a00f9f563e5c7a6b55ec9802ed5cfe43"
+    },
+    "nhsd-primary-care-domain-refsets-chd_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/chd_cod/20210127",
+      "url": "https://codelists.opensafely.org/codelist/nhsd-primary-care-domain-refsets/chd_cod/20210127/",
+      "downloaded_at": "2023-09-28 11:23:58.627457Z",
+      "sha": "0dab9c8229e0005df9d4c01950469818c8f10d49"
+    },
+    "user-matthewberesford92-coronary-heart-disease-icd10.csv": {
+      "id": "user/matthewberesford92/coronary-heart-disease-icd10/361e4561",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/coronary-heart-disease-icd10/361e4561/",
+      "downloaded_at": "2023-09-28 11:23:58.769235Z",
+      "sha": "b28a9806bfd4d3d314580672a112629fa6850d5d"
+    },
+    "nhsd-primary-care-domain-refsets-hf_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/hf_cod/20210127",
+      "url": "https://codelists.opensafely.org/codelist/nhsd-primary-care-domain-refsets/hf_cod/20210127/",
+      "downloaded_at": "2023-09-28 11:23:58.901705Z",
+      "sha": "c1fdc20e835c8e00b50e4728592b79bb3e3ee887"
+    },
+    "pincer-hf.csv": {
+      "id": "pincer/hf/v1.8",
+      "url": "https://codelists.opensafely.org/codelist/pincer/hf/v1.8/",
+      "downloaded_at": "2023-09-28 11:23:59.054874Z",
+      "sha": "977f8b25f800edc8dbd679407826e20cec7e0f11"
+    },
+    "user-matthewberesford92-heart-failure-icd-10.csv": {
+      "id": "user/matthewberesford92/heart-failure-icd-10/1d0ed22c",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/heart-failure-icd-10/1d0ed22c/",
+      "downloaded_at": "2023-09-28 11:23:59.226779Z",
+      "sha": "ddd9a1f13ea599fe892a89882256bc13565e414d"
+    },
+    "primis-covid19-vacc-uptake-resp_cov.csv": {
+      "id": "primis-covid19-vacc-uptake/resp_cov/v.1.5.3",
+      "url": "https://codelists.opensafely.org/codelist/primis-covid19-vacc-uptake/resp_cov/v.1.5.3/",
+      "downloaded_at": "2023-09-28 11:23:59.526339Z",
+      "sha": "8d4a97c04d8f3572c0e86ed343559eb613ea9e83"
+    },
+    "nhsd-primary-care-domain-refsets-c19preg_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/c19preg_cod/20200812",
+      "url": "https://codelists.opensafely.org/codelist/nhsd-primary-care-domain-refsets/c19preg_cod/20200812/",
+      "downloaded_at": "2023-09-28 11:23:59.706736Z",
+      "sha": "91dab6a38f99859e07ff91c4592c55973f4e0380"
+    },
+    "user-matthewberesford92-oestrogen-based-drugs-excluding-topical-preparations.csv": {
+      "id": "user/matthewberesford92/oestrogen-based-drugs-excluding-topical-preparations/0a2b9272",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/oestrogen-based-drugs-excluding-topical-preparations/0a2b9272/",
+      "downloaded_at": "2023-09-28 11:36:30.093864Z",
+      "sha": "5bf8787ec3a6b15bde522e8959197515642d20fe"
     }
   }
 }

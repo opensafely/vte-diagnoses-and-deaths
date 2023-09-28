@@ -2,14 +2,11 @@ code,term
 I26,Pulmonary embolism
 I260,Pulmonary embolism with mention of acute cor pulmonale
 I269,Pulmonary embolism without mention of acute cor pulmonale
-I80,Phlebitis and thrombophlebitis
-I800,Phlebitis and thrombophlebitis of superficial vessels of lower extremities
 I801,Phlebitis and thrombophlebitis of femoral vein
 I802,Phlebitis and thrombophlebitis of other deep vessels of lower extremities
 I803,"Phlebitis and thrombophlebitis of lower extremities, unspecified"
 I808,Phlebitis and thrombophlebitis of other sites
 I809,Phlebitis and thrombophlebitis of unspecified site
-I81,Portal vein thrombosis
 I82,Other venous embolism and thrombosis
 I820,Budd-Chiari syndrome
 I821,Thrombophlebitis migrans
@@ -17,3 +14,7 @@ I822,Embolism and thrombosis of vena cava
 I823,Embolism and thrombosis of renal vein
 I828,Embolism and thrombosis of other specified veins
 I829,Embolism and thrombosis of unspecified vein
+K751,Phlebitis of portal vein
+O223,Deep phlebothrombosis in pregnancy
+O871,Deep phlebothrombosis in the puerperium
+O882,Obstetric blood-clot embolism
