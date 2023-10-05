@@ -1,0 +1,93 @@
+code,term
+A021,Salmonella sepsis
+A047,Enterocolitis due to Clostridium difficile
+A064,Amoebic liver abscess K77.0
+A065,Amoebic lung abscess
+A066,Amoebic brain abscess G07
+A227,Anthrax sepsis
+A267,Erysipelothrix sepsis
+A327,Listerial sepsis
+A40,Streptococcal sepsis
+A400,"Sepsis due to streptococcus, group A"
+A401,"Sepsis due to streptococcus, group B"
+A402,"Sepsis due to streptococcus, group D and enterococcus"
+A403,Sepsis due to Streptococcus pneumoniae
+A408,Other streptococcal sepsis
+A409,"Streptococcal sepsis, unspecified"
+A41,Other sepsis
+A410,Sepsis due to Staphylococcus aureus
+A411,Sepsis due to other specified staphylococcus
+A412,Sepsis due to unspecified staphylococcus
+A413,Sepsis due to Haemophilus influenzae
+A414,Sepsis due to anaerobes
+A415,Sepsis due to other Gram-negative organisms
+A418,Other specified sepsis
+A419,"Sepsis, unspecified"
+A427,Actinomycotic sepsis
+B376,Candidal endocarditis I39.8
+B377,Candidal sepsis
+B431,Phaeomycotic brain abscess
+G06,Intracranial and intraspinal abscess and granuloma
+G060,Intracranial abscess and granuloma
+G061,Intraspinal abscess and granuloma
+G062,"Extradural and subdural abscess, unspecified"
+G07,Intracranial and intraspinal abscess and granuloma in diseases classified elsewhere
+H70,Mastoiditis and related conditions
+H700,Acute mastoiditis
+H701,Chronic mastoiditis
+H702,Petrositis
+H708,Other mastoiditis and related conditions
+H709,"Mastoiditis, unspecified"
+H750,Mastoiditis in infectious and parasitic diseases classified elsewhere
+I33,Acute and subacute endocarditis
+I330,Acute and subacute infective endocarditis
+I339,"Acute endocarditis, unspecified"
+I38,"Endocarditis, valve unspecified"
+I39,Endocarditis and heart valve disorders in diseases classified elsewhere
+I390,Mitral valve disorders in diseases classified elsewhere
+I391,Aortic valve disorders in diseases classified elsewhere
+I392,Tricuspid valve disorders in diseases classified elsewhere
+I393,Pulmonary valve disorders in diseases classified elsewhere
+I394,Multiple valve disorders in diseases classified elsewhere
+I398,"Endocarditis, valve unspecified, in diseases classified elsewhere"
+J36,Peritonsillar abscess
+J390,Retropharyngeal and parapharyngeal abscess
+J391,Other abscess of pharynx
+J85,Abscess of lung and mediastinum
+J851,Abscess of lung with pneumonia
+J852,Abscess of lung without pneumonia
+J853,Abscess of mediastinum
+J86,Pyothorax
+J860,Pyothorax with fistula
+J869,Pyothorax without fistula
+K102,Inflammatory conditions of jaws
+M00,Pyogenic arthritis
+M000,Staphylococcal arthritis and polyarthritis
+M001,Pneumococcal arthritis and polyarthritis
+M002,Other streptococcal arthritis and polyarthritis
+M008,Arthritis and polyarthritis due to other specified bacterial agents
+M009,"Pyogenic arthritis, unspecified"
+M01,Direct infections of joint in infectious and parasitic diseases classified elsewhere
+M010,Meningococcal arthritis A39.8
+M011,Tuberculous arthritis A18.0
+M012,Arthritis in Lyme disease A69.2
+M013,Arthritis in other bacterial diseases classified elsewhere
+M014,Rubella arthritis B06.8
+M015,Arthritis in other viral diseases classified elsewhere
+M016,Arthritis in mycoses B35-B49
+M018,Arthritis in other infectious and parasitic diseases classified elsewhere
+M462,Osteomyelitis of vertebra
+M86,Osteomyelitis
+M860,Acute haematogenous osteomyelitis
+M861,Other acute osteomyelitis
+M862,Subacute osteomyelitis
+M863,Chronic multifocal osteomyelitis
+M864,Chronic osteomyelitis with draining sinus
+M865,Other chronic haematogenous osteomyelitis
+M866,Other chronic osteomyelitis
+M868,Other osteomyelitis
+M869,"Osteomyelitis, unspecified"
+N111,Chronic obstructive pyelonephritis
+N151,Renal and perinephric abscess
+O230,Infections of kidney in pregnancy
+O85,Puerperal sepsis

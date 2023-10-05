@@ -24,6 +24,12 @@
       "downloaded_at": "2023-09-28 11:23:58.472631Z",
       "sha": "b22e71c0a00f9f563e5c7a6b55ec9802ed5cfe43"
     },
+    "user-matthewberesford92-serious-acute-infection.csv": {
+      "id": "user/matthewberesford92/serious-acute-infection/3be26a96",
+      "url": "https://codelists.opensafely.org/codelist/user/matthewberesford92/serious-acute-infection/3be26a96/",
+      "downloaded_at": "2023-10-05 11:54:05.343565Z",
+      "sha": "db4c4d0aed635963cc86383a98646c9fb4f3f10f"
+    },
     "nhsd-primary-care-domain-refsets-chd_cod.csv": {
       "id": "nhsd-primary-care-domain-refsets/chd_cod/20210127",
       "url": "https://codelists.opensafely.org/codelist/nhsd-primary-care-domain-refsets/chd_cod/20210127/",

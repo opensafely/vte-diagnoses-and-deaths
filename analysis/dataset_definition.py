@@ -30,6 +30,11 @@ codelist_acute_infection_snomed = codelist_from_csv(
         column="code"
 )
 
+codelist_acute_infection_icd = codelist_from_csv(
+    "codelists/user-matthewberesford92-serious-acute-infection.csv",
+    column = "code"
+)
+
 codelist_coronary_heart_disease_snomed = codelist_from_csv(
         "codelists/nhsd-primary-care-domain-refsets-chd_cod.csv",
         column = "code"
