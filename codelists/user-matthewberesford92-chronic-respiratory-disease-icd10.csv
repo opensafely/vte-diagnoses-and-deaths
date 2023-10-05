@@ -1,0 +1,78 @@
+code,term
+J41,Simple and mucopurulent chronic bronchitis
+J410,Simple chronic bronchitis
+J411,Mucopurulent chronic bronchitis
+J418,Mixed simple and mucopurulent chronic bronchitis
+J42,Unspecified chronic bronchitis
+J43,Emphysema
+J430,MacLeod syndrome
+J431,Panlobular emphysema
+J432,Centrilobular emphysema
+J438,Other emphysema
+J439,"Emphysema, unspecified"
+J44,Other chronic obstructive pulmonary disease
+J440,Chronic obstructive pulmonary disease with acute lower respiratory infection
+J441,"Chronic obstructive pulmonary disease with acute exacerbation, unspecified"
+J448,Other specified chronic obstructive pulmonary disease
+J449,"Chronic obstructive pulmonary disease, unspecified"
+J47,Bronchiectasis
+J60,Coalworker pneumoconiosis
+J61,Pneumoconiosis due to asbestos and other mineral fibres
+J62,Pneumoconiosis due to dust containing silica
+J620,Pneumoconiosis due to talc dust
+J628,Pneumoconiosis due to other dust containing silica
+J63,Pneumoconiosis due to other inorganic dusts
+J630,Aluminosis (of lung)
+J631,Bauxite fibrosis (of lung)
+J632,Berylliosis
+J633,Graphite fibrosis (of lung)
+J634,Siderosis
+J635,Stannosis
+J638,Pneumoconiosis due to other specified inorganic dusts
+J64,Unspecified pneumoconiosis
+J65,Pneumoconiosis associated with tuberculosis
+J66,Airway disease due to specific organic dust
+J660,Byssinosis
+J661,Flax-dresser disease
+J662,Cannabinosis
+J668,Airway disease due to other specific organic dusts
+J67,Hypersensitivity pneumonitis due to organic dust
+J670,Farmer lung
+J671,Bagassosis
+J672,Bird fancier lung
+J673,Suberosis
+J674,Maltworker lung
+J675,Mushroom-worker lung
+J676,Maple-bark-stripper lung
+J677,Air-conditioner and humidifier lung
+J678,Hypersensitivity pneumonitis due to other organic dusts
+J679,Hypersensitivity pneumonitis due to unspecified organic dust
+J684,"Chronic respiratory conditions due to chemicals, gases, fumes and vapours"
+J701,Chronic and other pulmonary manifestations due to radiation
+J703,Chronic drug-induced interstitial lung disorders
+J704,"Drug-induced interstitial lung disorders, unspecified"
+J708,Respiratory conditions due to other specified external agents
+J709,Respiratory conditions due to unspecified external agent
+J84,Other interstitial pulmonary diseases
+J840,Alveolar and parietoalveolar conditions
+J841,Other interstitial pulmonary diseases with fibrosis
+J848,Other specified interstitial pulmonary diseases
+J849,"Interstitial pulmonary disease, unspecified"
+J953,Chronic pulmonary insufficiency following surgery
+J961,Chronic respiratory failure
+J969,"Respiratory failure, unspecified"
+J98,Other respiratory disorders
+J980,"Diseases of bronchus, not elsewhere classified"
+J981,Pulmonary collapse
+J982,Interstitial emphysema
+J983,Compensatory emphysema
+J984,Other disorders of lung
+J985,"Diseases of mediastinum, not elsewhere classified"
+J986,Disorders of diaphragm
+J987,"Respiratory infections, not elsewhere classified"
+J988,Other specified respiratory disorders
+J989,"Respiratory disorder, unspecified"
+J99,Respiratory disorders in diseases classified elsewhere
+J990,Rheumatoid lung disease M05.1
+J991,Respiratory disorders in other diffuse connective tissue disorders
+J998,Respiratory disorders in other diseases classified elsewhere

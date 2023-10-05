@@ -60,6 +60,11 @@ codelist_respiratory_snomed = codelist_from_csv(
     column = "code"    
 )
 
+codelist_respiratory_icd = codelist_from_csv(
+    "codelists/user-matthewberesford92-chronic-respiratory-disease-icd10.csv",
+    column = "code"    
+)
+
 #codelist_thrombophilia_snomed = codelist_from_csv(
 #    "https://phenotypes.healthdatagateway.org/concepts/C2905/version/7425/detail/",
 #    column = ""    
