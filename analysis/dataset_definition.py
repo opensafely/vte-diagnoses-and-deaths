@@ -119,20 +119,25 @@ dataset.sex = patients.sex
 # ethnicity 
 
 # patients with hospital admission code of vte
-dataset.first_vte_hospitalisation_date = hospital_admissions.where(
+
+vte_secondary_admissions = hospital_admissions.where(
         hospital_admissions.primary_diagnoses.is_in(codelist_vte_icd10)
 ).where(
         hospital_admissions.admission_date.is_on_or_after(start_date)
-).sort_by(
-        hospital_admissions.admission_date
-).first_for_patient().admission_date
+)
 
-# mb -- patients with hospital admission code of vte
-dataset.first_vte_hospitalisation_date_mb = hospital_admissions.where(
+vte_secondary_admissions_mb = hospital_admissions.where(
         hospital_admissions.primary_diagnoses.is_in(codelist_vte_icd10_mb)
 ).where(
         hospital_admissions.admission_date.is_on_or_after(start_date)
-).sort_by(
+)
+
+dataset.first_vte_hospitalisation_date = vte_secondary_admissions.sort_by(
+        hospital_admissions.admission_date
+).first_for_patient().admission_date
+
+
+dataset.first_vte_hospitalisation_date_mb = vte_secondary_admissions_mb.sort_by(
         hospital_admissions.admission_date
 ).first_for_patient().admission_date
 
@@ -141,3 +146,9 @@ dataset.bmi = clinical_events.where(
     clinical_events.ctv3_code == CTV3Code("22K..")
     ).sort_by(clinical_events.date
     ).last_for_patient().numeric_value
+
+# vte counts
+
+dataset.vte_count_primary_diagnoses = vte_primary_events.count_for_patient()
+dataset.vte_count_secondary_admissions = vte_secondary_admissions.count_for_patient()
+dataset.vte_count_secondary_admissions_mb = vte_secondary_admissions_mb.count_for_patient()
