@@ -6,7 +6,18 @@ expectations:
 actions:
 
   generate_dataset:
-    run: ehrql:v0 generate-dataset analysis/dataset_definition.py --output output/dataset.arrow
+    run: ehrql:v0 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
     outputs:
       highly_sensitive:
-        cohort: output/dataset.arrow
+        cohort: output/dataset.csv.gz
+
+  initial_analysis:
+    run: r:analysis/analysis.R
+    needs: [generate_dataset]
+    outputs:
+      moderately_sensitive:
+        histogram_primary: output/df_primary_midpoint_rounded.png
+        histogram_secondary: output/df_secondary_midpoint_rounded.png
+        histogram_secondary_mb: output/df_secondary_mb_midpoint_rounded.png
+        crosstab_secondary: output/crosstab_secondary_codelists_midpoint_rounded.csv
+        crosstab_primary_secondary: output/crosstab_primary_secondary_midpoint_rounded.csv
