@@ -11,9 +11,9 @@ roundmid_any <- function(x, to = 6) {
 
 # primary
 
-df_primary <- dataset |>
-  group_by(vte_count_primary_diagnoses) |>
-  summarise(n = n()) |>
+df_primary <- dataset %>%
+  group_by(vte_count_primary_diagnoses) %>%
+  summarise(n = n()) %>%
   mutate(n = roundmid_any(n))
 
 ggplot(df_primary, aes(x = n)) +
@@ -25,9 +25,9 @@ ggsave("output/df_primary_midpoint_rounded.png")
 
 # secondary
 
-df_secondary <- dataset |>
-  group_by(vte_count_secondary_admissions) |>
-  summarise(n = n()) |>
+df_secondary <- dataset %>%
+  group_by(vte_count_secondary_admissions) %>%
+  summarise(n = n()) %>%
   mutate(n = roundmid_any(n))
 
 ggplot(df_secondary, aes(x = n)) +
@@ -39,9 +39,9 @@ ggsave("output/df_secondary_midpoint_rounded.png")
 
 # secondary mb
 
-df_secondary_mb <- dataset |>
-  group_by(vte_count_secondary_admissions) |>
-  summarise(n = n()) |>
+df_secondary_mb <- dataset %>%
+  group_by(vte_count_secondary_admissions) %>%
+  summarise(n = n()) %>%
   mutate(n = roundmid_any(n))
 
 ggplot(df_secondary_mb, aes(x = n)) +
@@ -53,7 +53,7 @@ ggsave("output/df_secondary_mb_midpoint_rounded.png")
 
 # crosstab secondary
 
-df_crosstab <- dataset |>
+df_crosstab <- dataset %>%
   mutate(
     patients_with_primary_diagnosis = ifelse(vte_count_primary_diagnoses > 0, 1, 0),
     patients_with_secondary_admission = ifelse(vte_count_secondary_admissions > 0, 1, 0),
@@ -61,22 +61,22 @@ df_crosstab <- dataset |>
     patients_with_any_secondary_admission = ifelse(patients_with_secondary_admission > 0 | patients_with_secondary_admission_mb > 0, 1, 0)
   ) 
 
-crosstab_secondary_codelists <- df_crosstab |>
-  group_by(patients_with_secondary_admission, patients_with_secondary_admission_mb) |>
-  summarise(n=n()) |>
-  ungroup() |>
+crosstab_secondary_codelists <- df_crosstab %>%
+  group_by(patients_with_secondary_admission, patients_with_secondary_admission_mb) %>%
+  summarise(n=n()) %>%
+  ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = n/sum(n)) |>
+         p = n/sum(n)) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_secondary_codelists, "output/crosstab_secondary_codelists_midpoint_rounded.csv")
 
-crosstab_primary_secondary <- df_crosstab |> 
-  group_by(patients_with_primary_diagnosis, patients_with_any_secondary_admission) |>
-  summarise(n=n()) |>
-  ungroup() |>
+crosstab_primary_secondary <- df_crosstab %>% 
+  group_by(patients_with_primary_diagnosis, patients_with_any_secondary_admission) %>%
+  summarise(n=n()) %>%
+  ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = n/sum(n)) |>
+         p = n/sum(n)) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_primary_secondary, "output/crosstab_primary_secondary_midpoint_rounded.csv")

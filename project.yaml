@@ -12,7 +12,7 @@ actions:
         cohort: output/dataset.csv.gz
 
   initial_analysis:
-    run: r:analysis/analysis.R
+    run: r:latest analysis/analysis.R
     needs: [generate_dataset]
     outputs:
       moderately_sensitive:
