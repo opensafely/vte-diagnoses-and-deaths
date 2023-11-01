@@ -69,7 +69,8 @@ crosstab_secondary_codelists <- df_crosstab %>%
   summarise(n=n()) %>%
   ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = round(n/sum(n), 3) %>%
+         p = round(n/sum(n), 3)
+   ) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_secondary_codelists, "output/crosstab_secondary_codelists_midpoint_rounded.csv")
@@ -79,7 +80,8 @@ crosstab_primary_secondary <- df_crosstab %>%
   summarise(n=n()) %>%
   ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = round(n/sum(n), 3) %>%
+         p = round(n/sum(n), 3) 
+  ) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_primary_secondary, "output/crosstab_primary_secondary_midpoint_rounded.csv")

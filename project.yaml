@@ -19,5 +19,8 @@ actions:
         histogram_primary: output/df_primary_midpoint_rounded.png
         histogram_secondary: output/df_secondary_midpoint_rounded.png
         histogram_secondary_mb: output/df_secondary_mb_midpoint_rounded.png
+        histogram_primary_precursor: output/vte_primary_diagnosis_frequency_distribution.csv
+        histogram_secondary_precursor: output/vte_secondary_admission_frequency_distribution.csv
+        histogram_secondary_mb_precursor: output/vte_secondary_mb_admission_frequency_distribution.csv
         crosstab_secondary: output/crosstab_secondary_codelists_midpoint_rounded.csv
         crosstab_primary_secondary: output/crosstab_primary_secondary_midpoint_rounded.csv
