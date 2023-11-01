@@ -21,6 +21,7 @@ ggplot(df_primary, aes(x = n)) +
   labs(title = "Distribution of primary care VTE diagnoses", x = "Number of primary care diagnoses", y = "Frequency") +
   theme_minimal()
 
+write_csv(df_primary, "output/vte_primary_diagnosis_frequency_distribution.csv")
 ggsave("output/df_primary_midpoint_rounded.png")
 
 # secondary
@@ -35,6 +36,7 @@ ggplot(df_secondary, aes(x = n)) +
   labs(title = "Distribution of secondary care VTE admissions", x = "Number of secondary care admissions", y = "Frequency") +
   theme_minimal()
 
+write_csv(df_secondary, "output/vte_secondary_admission_frequency_distribution.csv")
 ggsave("output/df_secondary_midpoint_rounded.png")
 
 # secondary mb
@@ -66,7 +68,7 @@ crosstab_secondary_codelists <- df_crosstab %>%
   summarise(n=n()) %>%
   ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = n/sum(n)) %>%
+         p = round(n/sum(n), 3) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_secondary_codelists, "output/crosstab_secondary_codelists_midpoint_rounded.csv")
@@ -76,7 +78,7 @@ crosstab_primary_secondary <- df_crosstab %>%
   summarise(n=n()) %>%
   ungroup() %>%
   mutate(n = roundmid_any(n), 
-         p = n/sum(n)) %>%
+         p = round(n/sum(n), 3) %>%
   arrange(desc(p)) 
 
 write_csv(crosstab_primary_secondary, "output/crosstab_primary_secondary_midpoint_rounded.csv")
