@@ -51,6 +51,7 @@ ggplot(df_secondary_mb, aes(x = n)) +
   labs(title = "Distribution of secondary care VTE admissions", subtitle = "Using MB's codelist", x = "Number of secondary care admissions", y = "Frequency") +
   theme_minimal()
 
+write_csv(df_secondary_mb, "output/vte_secondary_mb_admission_frequency_distribution.csv")
 ggsave("output/df_secondary_mb_midpoint_rounded.png")
 
 # crosstab secondary
