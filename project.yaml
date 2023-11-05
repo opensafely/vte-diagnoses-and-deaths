@@ -24,3 +24,10 @@ actions:
         histogram_secondary_mb_precursor: output/vte_secondary_mb_admission_frequency_distribution.csv
         crosstab_secondary: output/crosstab_secondary_codelists_midpoint_rounded.csv
         crosstab_primary_secondary: output/crosstab_primary_secondary_midpoint_rounded.csv
+
+  aggregate_pivots:
+    run: python:latest analysis/aggregate_pivots.py
+    needs: [generate_dataset]
+    outputs:
+      moderately_sensitive:
+        code_counts: output/vte_primary_events*.csv
