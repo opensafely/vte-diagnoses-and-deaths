@@ -11,6 +11,12 @@ actions:
       highly_sensitive:
         cohort: output/dataset.csv.gz
 
+  generate_pivoted_dataset:
+    run: ehrql:v0 generate-dataset analysis/dataset_definition_pivoted.py --output output/dataset_pivoted.csv.gz
+    outputs:
+      highly_sensitive:
+        cohort: output/dataset_pivoted.csv.gz
+
   initial_analysis:
     run: r:latest analysis/analysis.R
     needs: [generate_dataset]
@@ -27,7 +33,7 @@ actions:
 
   aggregate_pivots:
     run: python:latest analysis/aggregate_pivots.py
-    needs: [generate_dataset]
+    needs: [generate_pivoted_dataset]
     outputs:
       moderately_sensitive:
         code_counts: output/vte_primary_events*.csv

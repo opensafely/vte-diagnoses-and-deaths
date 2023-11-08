@@ -5,7 +5,7 @@ def redact(x):
     return x if x == 0 or x > 7 else "redacted"
 
 
-dataset = pd.read_csv("output/dataset.csv.gz")
+dataset = pd.read_csv("output/dataset_pivoted.csv.gz")
 
 vte_code_cols = [
     c
