@@ -67,9 +67,7 @@ dataset.first_vte_hospitalisation_date = (
     .first_for_patient()
     .admission_date
 )
-dataset.vte_count_secondary_admissions = (
-    vte_secondary_admissions.count_for_patient()
-)
+dataset.vte_count_secondary_admissions = vte_secondary_admissions.count_for_patient()
 
 # patients with hospital admission code of vte (alternative codelist)
 
