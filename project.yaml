@@ -11,6 +11,12 @@ actions:
       highly_sensitive:
         cohort: output/dataset.csv.gz
 
+  generate_dataset_exclusion_example:
+    run: ehrql:v0 generate-dataset analysis/dataset_definition_exclusion_example.py --output output/dataset_exclusion_example.csv.gz
+    outputs:
+      highly_sensitive:
+        cohort: output/dataset_exclusion_example.csv.gz
+
   generate_pivoted_dataset:
     run: ehrql:v0 generate-dataset analysis/dataset_definition_pivoted.py --output output/dataset_pivoted.csv.gz
     outputs:
