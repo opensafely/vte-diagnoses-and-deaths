@@ -14,71 +14,60 @@ from codelists import (
 
 dataset = Dataset()
 
-start_date = "2018-01-01"
-end_date = "2022-12-31"
+start_date_1 = "2018-03-01"
+end_date_1 = "2020-02-29"
+start_date_2 = "2020-03-01"
+end_date_2 = "2022-02-28"
 
 # events ####
-vte_primary_events = clinical_events.where(
+vte_primary_events_before_covid = clinical_events.where(
     (clinical_events.ctv3_code.is_in(codelist_vte_ctv3))
-    & (clinical_events.date >= start_date)
-    & (clinical_events.date <= end_date)
+    & (clinical_events.date >= start_date_1)
+    & (clinical_events.date <= end_date_1)
 )
 
-vte_secondary_admissions = hospital_admissions.where(
+vte_primary_events_after_covid = clinical_events.where(
+    (clinical_events.ctv3_code.is_in(codelist_vte_ctv3))
+    & (clinical_events.date >= start_date_2)
+    & (clinical_events.date <= end_date_2)
+)
+
+vte_secondary_admissions_before_covid = hospital_admissions.where(
     hospital_admissions.primary_diagnoses.is_in(codelist_vte_icd10)
-).where(hospital_admissions.admission_date.is_on_or_after(start_date))
+    & (hospital_admissions.admission_date >= start_date_1)
+    & (hospital_admissions.admission_date >= end_date_1)
+)
 
-vte_secondary_admissions_mb = hospital_admissions.where(
-    hospital_admissions.primary_diagnoses.is_in(codelist_vte_icd10_mb)
-).where(hospital_admissions.admission_date.is_on_or_after(start_date))
-
+vte_secondary_admissions_after_covid = hospital_admissions.where(
+    hospital_admissions.primary_diagnoses.is_in(codelist_vte_icd10)
+    & (hospital_admissions.admission_date >= start_date_2)
+    & (hospital_admissions.admission_date >= end_date_2)
+)
 
 # any patient who has a diagnosis of VTE in primary or secondary care
 # todo: or any patient who has VTE listed as cause of death
+
 dataset.define_population(
-    (vte_primary_events.exists_for_patient())
-    | (vte_secondary_admissions.exists_for_patient())
-    | (vte_secondary_admissions_mb.exists_for_patient())
-)
+    (vte_primary_events_before_covid.exists_for_patient())
+    | (vte_primary_events_after_covid.exists_for_patient())
+    | (vte_secondary_admissions_before_covid.exists_for_patient()
+    | (vte_secondary_admissions_after_covid.exists_for_patient())
+))
 
-# primary care vte events
-most_recent_vte_primary = vte_primary_events.sort_by(
-    vte_primary_events.date
-).last_for_patient()
-dataset.date_of_last_vte_primary_diagnosis = most_recent_vte_primary.date
-dataset.code_of_last_vte_primary_diagnosis = most_recent_vte_primary.ctv3_code
-dataset.vte_count_primary_diagnoses = vte_primary_events.count_for_patient()
+# primary and secondary care vte events and admissions
+dataset.vte_primary_events_before_covid_count = vte_primary_events_before_covid.count_for_patient()
+dataset.vte_primary_events_after_covid_count = vte_primary_events_after_covid.count_for_patient()
+dataset.vte_secondary_admissions_before_covid_count = vte_secondary_admissions_before_covid.count_for_patient()
+dataset.vte_secondary_admissions_after_covid_count = vte_secondary_admissions_after_covid.count_for_patient()
 
-# vte deaths
+# deaths
 dataset.has_died = ons_deaths.exists_for_patient()
 dataset.date_of_death = ons_deaths.date
 dataset.age_at_death = patients.age_on(ons_deaths.date)
 
 # age and sex
-dataset.age_at_last_vte = patients.age_on(most_recent_vte_primary.date)
+dataset.age_at_study_end = patients.age_on(end_date_2)
 dataset.sex = patients.sex
-
-# patients with hospital admission code of vte
-
-
-dataset.first_vte_hospitalisation_date = (
-    vte_secondary_admissions.sort_by(hospital_admissions.admission_date)
-    .first_for_patient()
-    .admission_date
-)
-dataset.vte_count_secondary_admissions = vte_secondary_admissions.count_for_patient()
-
-# patients with hospital admission code of vte (alternative codelist)
-
-dataset.first_vte_hospitalisation_date_mb = (
-    vte_secondary_admissions_mb.sort_by(hospital_admissions.admission_date)
-    .first_for_patient()
-    .admission_date
-)
-
-dataset.vte_count_secondary_admissions_mb = (
-    vte_secondary_admissions_mb.count_for_patient()
-)
 
 # bmi
 dataset.bmi = (

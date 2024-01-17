@@ -11,29 +11,9 @@ actions:
       highly_sensitive:
         cohort: output/dataset.csv.gz
 
-  generate_pivoted_dataset:
-    run: ehrql:v0 generate-dataset analysis/dataset_definition_pivoted.py --output output/dataset_pivoted.csv.gz
-    outputs:
-      highly_sensitive:
-        cohort: output/dataset_pivoted.csv.gz
-
   initial_analysis:
     run: r:latest analysis/analysis.R
     needs: [generate_dataset]
     outputs:
       moderately_sensitive:
-        histogram_primary: output/df_primary_midpoint_rounded.png
-        histogram_secondary: output/df_secondary_midpoint_rounded.png
-        histogram_secondary_mb: output/df_secondary_mb_midpoint_rounded.png
-        histogram_primary_precursor: output/vte_primary_diagnosis_frequency_distribution.csv
-        histogram_secondary_precursor: output/vte_secondary_admission_frequency_distribution.csv
-        histogram_secondary_mb_precursor: output/vte_secondary_mb_admission_frequency_distribution.csv
-        crosstab_secondary: output/crosstab_secondary_codelists_midpoint_rounded.csv
-        crosstab_primary_secondary: output/crosstab_primary_secondary_midpoint_rounded.csv
-
-  aggregate_pivots:
-    run: python:latest analysis/aggregate_pivots.py
-    needs: [generate_pivoted_dataset]
-    outputs:
-      moderately_sensitive:
-        code_counts: output/vte_primary_events*.csv
+        first_crosstab: output/first_crosstab.csv

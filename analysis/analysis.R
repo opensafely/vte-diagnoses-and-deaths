@@ -11,77 +11,24 @@ roundmid_any <- function(x, to = 6) {
 
 # primary
 
-df_primary <- dataset %>%
-  group_by(vte_count_primary_diagnoses) %>%
-  summarise(n = n()) %>%
-  mutate(n = roundmid_any(n))
-
-ggplot(df_primary, aes(x = n)) +
-  geom_histogram(binwidth = 1) +
-  labs(title = "Distribution of primary care VTE diagnoses", x = "Number of primary care diagnoses", y = "Frequency") +
-  theme_minimal()
-
-write_csv(df_primary, "output/vte_primary_diagnosis_frequency_distribution.csv")
-ggsave("output/df_primary_midpoint_rounded.png")
-
-# secondary
-
-df_secondary <- dataset %>%
-  group_by(vte_count_secondary_admissions) %>%
-  summarise(n = n()) %>%
-  mutate(n = roundmid_any(n))
-
-ggplot(df_secondary, aes(x = n)) +
-  geom_histogram(binwidth = 1) +
-  labs(title = "Distribution of secondary care VTE admissions", x = "Number of secondary care admissions", y = "Frequency") +
-  theme_minimal()
-
-write_csv(df_secondary, "output/vte_secondary_admission_frequency_distribution.csv")
-ggsave("output/df_secondary_midpoint_rounded.png")
-
-# secondary mb
-
-df_secondary_mb <- dataset %>%
-  group_by(vte_count_secondary_admissions) %>%
-  summarise(n = n()) %>%
-  mutate(n = roundmid_any(n))
-
-ggplot(df_secondary_mb, aes(x = n)) +
-  geom_histogram(binwidth = 1) +
-  labs(title = "Distribution of secondary care VTE admissions", subtitle = "Using MB's codelist", x = "Number of secondary care admissions", y = "Frequency") +
-  theme_minimal()
-
-write_csv(df_secondary_mb, "output/vte_secondary_mb_admission_frequency_distribution.csv")
-ggsave("output/df_secondary_mb_midpoint_rounded.png")
-
-# crosstab secondary
-
-df_crosstab <- dataset %>%
+crosstab1 <- dataset %>%
   mutate(
-    patients_with_primary_diagnosis = ifelse(vte_count_primary_diagnoses > 0, 1, 0),
-    patients_with_secondary_admission = ifelse(vte_count_secondary_admissions > 0, 1, 0),
-    patients_with_secondary_admission_mb = ifelse(vte_count_secondary_admissions_mb > 0, 1, 0),
-    patients_with_any_secondary_admission = ifelse(patients_with_secondary_admission > 0 | patients_with_secondary_admission_mb > 0, 1, 0)
-  ) 
+    primary_before_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
+    primary_after_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
+    secondary_before_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
+    secondary_after_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0)
+    ) %>%
+  group_by(primary_before_tf,
+            primary_after_tf,
+            secondary_before_tf,
+            secondary_after_tf
+            ) %>%
+  summarise(n = n()) %>%
+  mutate(n = roundmid_any(n))
 
-crosstab_secondary_codelists <- df_crosstab %>%
-  group_by(patients_with_secondary_admission, patients_with_secondary_admission_mb) %>%
-  summarise(n=n()) %>%
-  ungroup() %>%
-  mutate(n = roundmid_any(n), 
-         p = round(n/sum(n), 3)
-   ) %>%
-  arrange(desc(p)) 
+#ggplot(df_primary, aes(x = n)) +
+#  geom_histogram(binwidth = 1) +
+#  labs(title = "Distribution of primary care VTE diagnoses", x = "Number of primary care diagnoses", y = "Frequency") +
+#  theme_minimal()
 
-write_csv(crosstab_secondary_codelists, "output/crosstab_secondary_codelists_midpoint_rounded.csv")
-
-crosstab_primary_secondary <- df_crosstab %>% 
-  group_by(patients_with_primary_diagnosis, patients_with_any_secondary_admission) %>%
-  summarise(n=n()) %>%
-  ungroup() %>%
-  mutate(n = roundmid_any(n), 
-         p = round(n/sum(n), 3) 
-  ) %>%
-  arrange(desc(p)) 
-
-write_csv(crosstab_primary_secondary, "output/crosstab_primary_secondary_midpoint_rounded.csv")
+write_csv(crosstab1, "output/first_crosstab.csv")
