@@ -14,9 +14,9 @@ roundmid_any <- function(x, to = 6) {
 crosstab1 <- dataset %>%
   mutate(
     primary_before_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
-    primary_after_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
-    secondary_before_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0),
-    secondary_after_tf = ifelse(vte_primary_events_before_covid_count > 0, 1, 0)
+    primary_after_tf = ifelse(vte_primary_events_after_covid_count > 0, 1, 0),
+    secondary_before_tf = ifelse(vte_secondary_admissions_before_covid_count > 0, 1, 0),
+    secondary_after_tf = ifelse(vte_secondary_admissions_after_covid_count > 0, 1, 0)
     ) %>%
   group_by(primary_before_tf,
             primary_after_tf,
