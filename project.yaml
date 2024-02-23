@@ -24,11 +24,4 @@ actions:
     outputs:
       highly_sensitive:
         csv: output/dataset.csv.gz
-        
-  # Analyse data ----
-  initial_analysis:
-    run: r:latest analysis/analysis.R
-    needs: [generate_dataset]
-    outputs:
-      moderately_sensitive:
-        first_crosstab: output/first_crosstab.csv
+      

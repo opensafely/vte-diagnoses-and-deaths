@@ -87,8 +87,7 @@ anticoagulant_prescription = medications.where(
   medications.date.is_on_or_between(vte_diagnosis_date - days(15), vte_diagnosis_date + days(90))).exists_for_patient()
     
 ## Death within 30 days of VTE code
-died_within_30_days = ons_deaths.sort_by(
-  ons_deaths.date).first_for_patient().date.is_on_or_between(
+died_within_30_days = ons_deaths.date.is_on_or_between(
     vte_diagnosis_date, vte_diagnosis_date + days(30))
 
 ## Patients registered at the time of their VTE
