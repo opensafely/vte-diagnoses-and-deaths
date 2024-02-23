@@ -1,3 +1,14 @@
+################################################################################
+#
+# Description: This script defines the project pipeline - it specifys the
+#              execution orders for all the code in this repo using a series of
+#              actions.
+#
+# Author(s): J.Mutio, M Green
+# Date last updated: 22/02/2024
+#
+################################################################################
+
 version: '3.0'
 
 expectations:
@@ -5,12 +16,16 @@ expectations:
 
 actions:
 
+  # Extract data ----
   generate_dataset:
-    run: ehrql:v0 generate-dataset analysis/dataset_definition.py --output output/dataset.csv.gz
+    run: >
+      ehrql:v0 generate-dataset analysis/dataset_definition.py
+      --output 'output/dataset.csv.gz'
     outputs:
       highly_sensitive:
-        cohort: output/dataset.csv.gz
-
+        csv: output/dataset.csv.gz
+        
+  # Analyse data ----
   initial_analysis:
     run: r:latest analysis/analysis.R
     needs: [generate_dataset]
