@@ -13,3 +13,5 @@ user/matthewberesford92/chronic-respiratory-disease-icd10/18ceab18/
 nhsd-primary-care-domain-refsets/c19preg_cod/20200812
 user/matthewberesford92/oestrogen-based-drugs-excluding-topical-preparations/0a2b9272
 opensafely/ethnicity/2020-04-27
+user/matthewberesford92/oral-anticoagulation-used-for-treatment-of-vte-in-primary-care-uk-dmd-dmd/316ca70a/
+user/matthewberesford92/anticoagulation-taken-for-vte-dmd/638b8d74/

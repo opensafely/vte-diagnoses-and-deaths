@@ -1,4 +1,5 @@
 from ehrql import codelist_from_csv
+
 # importing codelists ####
 
 codelist_vte_ctv3 = codelist_from_csv(
@@ -72,3 +73,15 @@ codelist_hormonal_contraception_dmd = codelist_from_csv(
 codelist_ethnicity = codelist_from_csv(
     "codelists/opensafely-ethnicity.csv", column="Code"
 )
+
+codelist_oral_anticoagulation = codelist_from_csv(
+    "codelists/user-matthewberesford92-oral-anticoagulation-used-for-treatment-of-vte-in-primary-care-uk-dmd-dmd.csv",
+    column="dmd_id"
+)
+
+codelist_anticoagulation_taken = codelist_from_csv(
+    "codelists/user-matthewberesford92-anticoagulation-taken-for-vte-dmd.csv",
+    column="dmd_id"
+)
+
+codelist_anticoagulant_prescription = (codelist_oral_anticoagulation + codelist_anticoagulation_taken)
